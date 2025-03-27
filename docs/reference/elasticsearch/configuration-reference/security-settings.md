@@ -27,7 +27,7 @@ All of these settings can be added to the `elasticsearch.yml` configuration file
 `xpack.security.autoconfiguration.enabled`
 :   ([Static](docs-content://deploy-manage/deploy/self-managed/configure-elasticsearch.md#static-cluster-setting)) Defaults to `true`, which enables [security auto configuration](docs-content://deploy-manage/deploy/self-managed/installing-elasticsearch.md).
 
-    If set to `false`, security auto configuration is disabled, which is not recommended. When disabled, security is not configured automatically when starting {{es}} for the first time, which means that you must [manually configure security](docs-content://deploy-manage/security/manually-configure-security-in-self-managed-cluster.md).
+    If set to `false`, security auto configuration is disabled, which is not recommended. When disabled, security is not configured automatically when starting {{es}} for the first time, which means that you must [manually configure security](docs-content://deploy-manage/security/self-setup.md#manual-configuration).
 
 
 `xpack.security.enrollment.enabled`
